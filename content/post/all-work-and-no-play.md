@@ -19,3 +19,5 @@ All pretty! So pretty!
 Re-using images?
 
 ![](/uploads/landscape_full-size_192.jpg)See the image above? It's pretty isn't it?
+
+Next... content!
