@@ -1,5 +1,6 @@
-baseURL = "m3at.github.io"
-languageCode = "en-us"
+# baseURL = "m3at.github.io"
+baseURL = ""
+languageCode = "en"
 title = "Paul's blog"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
 preserveTaxonomyNames = true
@@ -59,7 +60,7 @@ copyright = ""            # default: author.name ↓
 
   # site info (optional)
   logoTitle = "paulw.tokyo"        # default: the title value
-  keywords = ["Hugo", "theme", "even"]
+  keywords = ["ML", "CS"]
   description = "Paul Willot's personal blog"
 
   # paginate of archives, tags and categories
