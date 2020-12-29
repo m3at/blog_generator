@@ -12,3 +12,5 @@ fields:
     date_format: YYYY/MM/DD
     required: false
   default: now
+pages:
+- content/post/all-work-and-no-play.md
