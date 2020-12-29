@@ -28,6 +28,6 @@ jobs:
         with:
           deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           publish_dir: ./public
-          # cname: paulw.tokyo
+          cname: paulw.tokyo
           publish_branch: main
           external_repository: m3at/m3at.github.io
