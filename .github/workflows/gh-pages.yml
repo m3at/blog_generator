@@ -30,3 +30,4 @@ jobs:
           publish_dir: ./public
           # cname: paulw.tokyo
           publish_branch: main
+          external_repository: m3at/m3at.github.io
