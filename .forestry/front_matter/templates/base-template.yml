@@ -7,3 +7,5 @@ fields:
   config:
     required: false
   label: Text field
+pages:
+- content/post/draft from forestry.md
