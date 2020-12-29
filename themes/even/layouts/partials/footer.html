@@ -13,14 +13,14 @@
 </div>
 
 <div class="copyright">
-  <span class="power-by">
-    {{ (printf (T "powered") `<a class="hexo-link" href="https://gohugo.io">Hugo</a>`) | safeHTML }}
-  </span>
-  <span class="division">|</span>
-  <span class="theme-info">
-    {{ T "theme" }} - 
-    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
-  </span>
+  <!-- <span class="power-by"> -->
+  <!--   {{ (printf (T "powered") `<a class="hexo-link" href="https://gohugo.io">Hugo</a>`) | safeHTML }} -->
+  <!-- </span> -->
+  <!-- <span class="division">|</span> -->
+  <!-- <span class="theme-info"> -->
+  <!--   {{ T "theme" }} - --> 
+  <!--   <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a> -->
+  <!-- </span> -->
 
   {{ if .Site.Params.busuanzi.enable -}}
   <div class="busuanzi-footer">
@@ -44,7 +44,14 @@
       {{ .Site.Params.since }} - 
     {{ end }}
     {{- $current -}}
-    <span class="heart"><i class="iconfont icon-heart"></i></span><!--
-    --><span>{{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}</span>
+    <!-- <span class="heart"><i class="iconfont icon-heart"></i></span><!-- -->
+    <!-- -1-><span>{{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}</span> -->
+    <!-- <span class="heart"> -->
+    <!--     <i class="iconfont icon-heart"> -->
+    <!--     </i> -->
+    <!-- </span> -->
+    <span>
+        {{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}
+    </span>
   </span>
 </div>
