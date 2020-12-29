@@ -1,6 +1,7 @@
 +++
 draft = true
-text_field = ""
+text_area_markdown = "\\`\\`\\`python  \nprint(\"confirm\")  \n\\`\\`\\`"
+text_field = "some text"
 
 +++
 # Post from Forestry
@@ -9,5 +10,10 @@ And still okay?
 
 ![alt text: a landscape](/uploads/landscape_full-size_192.jpg "title of image")A small image.
 
+    #!python
     a = 42
     print(f"{a=}")
+
+\`\`\`python  
+print("ok")  
+\`\`\`
