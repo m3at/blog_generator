@@ -1,5 +1,7 @@
 +++
+categories = ["website construction"]
 date = 2020-12-29T07:38:16Z
+tags = ["debug"]
 title = "All work and no play"
 
 +++
