@@ -25,3 +25,4 @@ fields:
   description: General categories in which the post belong, more general than tags
 pages:
 - content/post/all-work-and-no-play.md
+- content/post/sanity-check-post.md
