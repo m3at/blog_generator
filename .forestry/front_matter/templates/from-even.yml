@@ -4,10 +4,10 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
   config:
     date_format: YYYY/MM/DD
     required: false
@@ -16,13 +16,21 @@ fields:
   type: tag_list
   default:
   - unsorted
-  label: tags
+  label: Tags
   description: keywords related to the post
 - name: categories
   type: tag_list
   default: []
-  label: categories
+  label: Categories
   description: General categories in which the post belong, more general than tags
+- name: draft
+  type: boolean
+  label: Draft
+- name: mathjax
+  type: boolean
+  label: MathJax
+  description: Enable MathJax. The basic syntax is $$x = {-b \times \sqrt{b^2-4ac}
+    \over 2a}$$
 pages:
 - content/post/all-work-and-no-play.md
 - content/post/sanity-check-post.md
