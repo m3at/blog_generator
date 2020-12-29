@@ -8,3 +8,7 @@ fields:
 - type: datetime
   name: date
   label: date
+  config:
+    date_format: YYYY/MM/DD
+    required: false
+  default: now
