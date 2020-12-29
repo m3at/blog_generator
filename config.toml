@@ -1,4 +1,4 @@
-baseURL = "https://m3at.github.io/"
+baseURL = "m3at.github.io"
 languageCode = "en-us"
 title = "Paul's blog"
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
