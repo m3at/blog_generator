@@ -12,5 +12,16 @@ fields:
     date_format: YYYY/MM/DD
     required: false
   default: now
+- name: tags
+  type: tag_list
+  default:
+  - unsorted
+  label: tags
+  description: keywords related to the post
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
+  description: General categories in which the post belong, more general than tags
 pages:
 - content/post/all-work-and-no-play.md
