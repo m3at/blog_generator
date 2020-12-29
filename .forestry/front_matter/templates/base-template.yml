@@ -7,5 +7,14 @@ fields:
   config:
     required: false
   label: Text field
+- name: text_area_markdown
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: true
+    schema:
+      format: markdown
+  label: Text area markdown
 pages:
 - content/post/draft from forestry.md
