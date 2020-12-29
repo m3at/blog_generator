@@ -1,0 +1,4 @@
+baseURL = "https://m3at.github.io/"
+languageCode = "en-us"
+title = "Paul Willot's blog"
+theme = "even"
