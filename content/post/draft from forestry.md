@@ -1,6 +1,6 @@
 +++
 draft = true
-text_area_markdown = "\\`\\`\\`python  \nprint(\"confirm\")  \n\\`\\`\\`"
+text_area_markdown = ""
 text_field = "some text"
 
 +++
@@ -14,6 +14,6 @@ And still okay?
     a = 42
     print(f"{a=}")
 
-\`\`\`python  
+```python  
 print("ok")  
-\`\`\`
+```
