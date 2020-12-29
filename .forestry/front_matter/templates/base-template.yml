@@ -1,4 +1,9 @@
 ---
 label: Base template
 hide_body: false
-fields: []
+fields:
+- name: text_field
+  type: text
+  config:
+    required: false
+  label: Text field
