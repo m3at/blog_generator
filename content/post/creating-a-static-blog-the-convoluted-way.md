@@ -1,7 +1,6 @@
 +++
 categories = ["programming"]
 date = 2020-12-31T06:16:13Z
-draft = true
 mathjax = false
 tags = ["blog", "programming", "web"]
 title = "Creating a static blog, the convoluted way"
