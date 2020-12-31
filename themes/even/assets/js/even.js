@@ -52,12 +52,18 @@ Even.mobileNavbar = function() {
 if ($('.mobile-navbar').length > 0) {
   var prevScrollpos = window.pageYOffset;
   var mobileNavbar = document.getElementById("mobile-navbar")
+  var navbarVisible = true;
+  var currentScrollPos;
   window.onscroll = function() {
-    var currentScrollPos = window.pageYOffset;
+    currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
-      mobileNavbar.style.transform = 'translateY(0)'
-    } else {
-      mobileNavbar.style.transform = 'translateY(-110%)'
+      if (!navbarVisible) {
+        navbarVisible = true;
+        mobileNavbar.style.transform = 'translateY(0)';
+      }
+    } else if (navbarVisible) {
+      navbarVisible = false;
+      mobileNavbar.style.transform = 'translateY(-110%)';
     }
     prevScrollpos = currentScrollPos;
   } 
