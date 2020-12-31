@@ -48,6 +48,20 @@ Even.mobileNavbar = function() {
   });
 };
 
+// On mobile, hide the navbar when scrolling down
+if ($('.mobile-navbar').length > 0) {
+  var prevScrollpos = window.pageYOffset;
+  window.onscroll = function() {
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      document.getElementById("mobile-navbar").style.top = "0";
+    } else {
+      document.getElementById("mobile-navbar").style.top = "-50px";
+    }
+    prevScrollpos = currentScrollPos;
+  } 
+}
+
 Even._initToc = function() {
   const SPACING = 20;
   const $toc = $('.post-toc');
