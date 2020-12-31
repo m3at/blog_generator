@@ -1,28 +1,31 @@
 +++
 categories = ["website construction"]
 date = 2020-12-29T07:38:16Z
-mathjax = false
+draft = true
+mathjax = true
 tags = ["debug"]
-title = "All work and no play"
+title = "Check page"
 
 +++
-# ...makes Jack a dull boy
+# Level 1 title
 
-Python's f-string:
+Example python code:
 
 ```python
 a = 42
 print(f"{a=}")
 ```
 
-## A secondary title
+## Level 2 title
 
-All pretty! So pretty!
+Some text.
 
-Re-using images?
+With images too!
 
 ![](/uploads/landscape_full-size_192.jpg)See the image above? It's pretty isn't it?
 
 Next... content!
 
-I love Bremiac.
+Math? No worries
+
+$$\\delta v = v_e ln {m_0 \\over m_f}$$
