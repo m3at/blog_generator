@@ -51,12 +51,13 @@ Even.mobileNavbar = function() {
 // On mobile, hide the navbar when scrolling down
 if ($('.mobile-navbar').length > 0) {
   var prevScrollpos = window.pageYOffset;
+  var mobileNavbar = document.getElementById("mobile-navbar")
   window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
-      document.getElementById("mobile-navbar").style.top = "0";
+      mobileNavbar.style.transform = 'translateY(0)'
     } else {
-      document.getElementById("mobile-navbar").style.top = "-50px";
+      mobileNavbar.style.transform = 'translateY(-110%)'
     }
     prevScrollpos = currentScrollPos;
   } 
