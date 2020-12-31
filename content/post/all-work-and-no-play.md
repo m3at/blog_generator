@@ -7,6 +7,8 @@ tags = ["debug"]
 title = "Check page"
 
 +++
+Headline text to check formatting. 日本語もいいですね。
+
 # Level 1 title
 
 Example python code:
@@ -15,6 +17,8 @@ Example python code:
 a = 42
 print(f"{a=}")
 ```
+
+Example
 
 ## Level 2 title
 
@@ -28,4 +32,4 @@ Next... content!
 
 Math? No worries
 
-$$\\delta v = v_e ln {m_0 \\over m_f}$$
+$$\\Delta v = v_e \\ln {m_0 \\over m_f}$$
