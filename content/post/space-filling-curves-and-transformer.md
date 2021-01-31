@@ -36,4 +36,15 @@ Using the Z-order function, we can create an index and use it for mapping from \
 
 (TODO: clean-up and publish the code)
 
-Now that we have a way to flatten space while keeping some locality, we can design an experiment! To keep things fast I used the small CIFAR-10 dataset, which is fast enough to train on, even with a naive training loop implementation. As a bonus, I already had some code lying around that allowed me to train at 3000 samples/second on my aging 1070Ti (loosely based on [Myrtle.ai]() posts about training speedup; a story for another time).
+Now that we have a way to flatten space while keeping some locality, we can design an experiment! To keep things fast I used the small CIFAR-10 dataset, which is fast enough to train on, even with a naive training loop implementation. As a bonus, I already had some code lying around that allowed me to reach 3000 samples/second on my aging 1070Ti (loosely based on [Myrtle.ai]() posts about training speedup; a story for another time).
+
+I tried 3 configurations:
+
+* A baseline model with the usual 2D convolutions
+* A model using 1D convolutions after flattening the input using the Z-order function
+* The same 1D model but with naive flattening, and random flattening
+
+All models are kept as close as possible, using the same 9-layers architecture and swapping the convolutions/batch-norm/pooling to either 2D or 1D.  
+Because convolving on lower dimensions use smaller kernels it result in less parameters, so I compensate by adjusting the layers' width until the number of trainable parameters match. While this is by no mean sufficient to make it an apple to apple comparison, it will have to do!
+
+(TODO: finish the write-up :D)
