@@ -27,7 +27,7 @@ ffprobe -select_streams v -skip_frame nokey -show_frames -show_entries frame=pkt
 Then for each `TIMESTAMP` obtained, we can extract the frame:
 
 ```bash
-ffmpeg -ss TIMESTAMP -i video.mp4 -vframes 1 frame.png"
+ffmpeg -ss TIMESTAMP -i video.mp4 -vframes 1 frame.png
 ```
 
 And lastly we can aggregate the results of a simple image filter over all frames, to create a mask:
