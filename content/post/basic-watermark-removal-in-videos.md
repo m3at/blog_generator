@@ -20,13 +20,13 @@ Using [ffmpeg](https://www.ffmpeg.org/ "ffmpeg website") we can extract the time
 
 With ffmpeg, we just need to run:
 
-```sh
+```bash
 ffprobe -select_streams v -skip_frame nokey -show_frames -show_entries frame=pkt_pts_time video.mp4
 ```
 
 Then for each `TIMESTAMP` obtained, we can extract the frame:
 
-```sh
+```bash
 ffmpeg -ss TIMESTAMP -i video.mp4 -vframes 1 frame.png"
 ```
 
@@ -48,11 +48,11 @@ salient = normalize(gaussian_filter(salient, sigma=3))
 mask = ((salient > 0.2) * 255).astype(np.uint8)
 ```
 
-_Bonus, if one wants to do it without python, it should be doable using ImageMagick's `convert` with `-evaluate-sequence mean *.png mean.png` and the existing_ [_Sobel filter_](https://legacy.imagemagick.org/Usage/convolve/#sobel "Sobel ImageMagick")_._
+_Bonus, if one wants to do it without python, it should be doable using ImageMagick's `convert` with the existing_ [_Sobel filter_](https://legacy.imagemagick.org/Usage/convolve/#sobel "Sobel ImageMagick") _and `-evaluate-sequence mean *.png mean.png`._
 
 We now have a global mask to inpaint, so we can simply use ffmpeg's [`removelogo`](https://ffmpeg.org/ffmpeg-filters.html#removelogo) filter to obtain our cleaned-up video:
 
-```sh
+```bash
 ffmpeg -i video.mp4 -vf "removelogo=mask.png" cleaned.mp4
 ```
 
