@@ -1,7 +1,6 @@
 +++
 categories = ["machine learning"]
 date = 2021-09-18T11:39:18Z
-draft = true
 mathjax = true
 tags = ["programming", "machine-learning"]
 title = "Denormal number at inference in PyTorch"
