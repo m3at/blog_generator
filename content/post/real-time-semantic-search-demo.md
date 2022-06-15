@@ -1,7 +1,6 @@
 +++
 categories = []
 date = 2022-06-15T04:50:04Z
-draft = true
 mathjax = false
 tags = ["machine-learning", "search"]
 title = "Real-time semantic search demo"
