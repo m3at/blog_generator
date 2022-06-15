@@ -20,13 +20,14 @@ So let's combine the three!
 
 <style>
 video {
+  width: 80%;
   max-width: 300px;
 }
 </style>
 
 <center>
-<video width="80%" controls autoplay loop muted>
-<source src="/uploads/ann_demo_long_full.webm" type="video/webm"/>
+<video autoplay="autoplay" loop controls muted playsinline>
+<source src="/uploads/ann_demo_long_full.mp4" type="video/mp4"/>
 </video>
 </center>
 
@@ -37,8 +38,8 @@ To show off the speed, I prepared a tiny version of all images (<500 bytes) that
 Also human typing speed is not that fast, so to make the search field usable I added a delay before triggering the search, so the latency you see is after the search query is sent.
 
 <center>
-<video width="80%" controls autoplay loop muted>
-<source src="/uploads/ann_demo_short_fast.webm" type="video/webm"/>
+<video autoplay="autoplay" loop controls muted playsinline>
+<source src="/uploads/ann_demo_short_fast.mp4" type="video/mp4"/>
 </video>
 </center>
 
