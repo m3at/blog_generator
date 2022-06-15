@@ -18,7 +18,17 @@ For the user interaction, any web tech stack can do the job, I went with [FastAP
 
 So let's combine the three!
 
-[full demo](/uploads/ann_demo_long_full.webm "full demo")
+<style>
+video {
+  max-width: 300px;
+}
+</style>
+
+<center>
+<video width="80%" controls autoplay loop muted>
+<source src="/uploads/ann_demo_long_full.webm" type="video/webm"/>
+</video>
+</center>
 
 The demo above search over \~1.5M images, taking about 3Gb of space for the index and with latency under 100ms. This is running on single process from my laptop.
 
@@ -26,7 +36,11 @@ To show off the speed, I prepared a tiny version of all images (<500 bytes) that
 
 Also human typing speed is not that fast, so to make the search field usable I added a delay before triggering the search, so the latency you see is after the search query is sent.
 
-[fast demo](/uploads/ann_demo_short_fast.webm "fast demo with low delay")
+<center>
+<video width="80%" controls autoplay loop muted>
+<source src="/uploads/ann_demo_short_fast.webm" type="video/webm"/>
+</video>
+</center>
 
 Here is an other demo, with full image loading disabled and a lower typing delay, just to show the speed.
 
