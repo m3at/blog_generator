@@ -29,8 +29,10 @@ TODO: add video demo
 
 Here is an other demo, with full image loading disabled and a lower typing delay.
 
+***
+
 ### Conclusion
 
-I'm quite pleased with those results, there's still a lot that could be done to speed-up the search further but it's fast enough for a prototype. 
+I'm quite pleased with those results, there's still a lot that could be done to speed-up the search further but it's fast enough for a prototype.
 
 Calling this a "search engine" is a bit of a stretch, there is limited control and no filtering options but the tech stack is very simple (it only took a day to make this demo!), I think this has value in itself. Though with the [recent support of ANN+filtering](https://github.com/elastic/elasticsearch/pull/84734) in Lucene/Elasticsearch the comparison would be interesting.
