@@ -36,4 +36,5 @@ pages:
 - content/post/basic-watermark-removal-in-videos.md
 - content/post/creating-a-static-blog-the-convoluted-way.md
 - content/post/denormal-number-at-inference-in-pytorch.md
+- content/post/real-time-semantic-search-demo.md
 - content/post/space-filling-curves-and-transformer.md
