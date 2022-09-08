@@ -32,6 +32,7 @@ fields:
   description: Enable MathJax. The basic syntax is $$x = {-b \times \sqrt{b^2-4ac}
     \over 2a}$$
 pages:
+- content/post/ad-sharks.md
 - content/post/all-work-and-no-play.md
 - content/post/basic-watermark-removal-in-videos.md
 - content/post/creating-a-static-blog-the-convoluted-way.md
