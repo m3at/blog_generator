@@ -1,7 +1,6 @@
 +++
 categories = []
 date = 2022-09-08T13:52:17Z
-draft = true
 mathjax = false
 tags = ["unsorted", "rambling"]
 title = "Ad sharks"
