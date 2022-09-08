@@ -9,11 +9,11 @@ title = "Ad sharks"
 +++
 I don't own a TV, but there's one at my gym. This morning, there was this... infomercial? I don't know how to call it, it lasted at least an hour and had the tone of the usual off-hour Japanese TV. Programs that try, not very hard, to be both entertainment and journalistic news. Of course it was interspaced by plenty of ads.
 
-The topic was shark fishing, and how eating them keeps you young. And all the ads, which seemed to feature only one brand, were dietary supplements made from shark extracts. 
+The topic was shark fishing, and how eating them keeps you young. And all the ads, which seemed to feature only one brand, were dietary supplements made from shark extracts.
 
-Both the show and the ads clearly targeted the elderly, with bold claims from lab coat wearing "scientists" of rejuvenating by 15 years.
+Both the show and the ads clearly targeted the elderly, with bold claims from "scientists" in lab coats of rejuvenating by 15 years.
 
-No-one likes ads but this felts particularly egregious. It triggered me somehow. 
+No-one likes ads but this felts particularly egregious. It triggered me somehow.
 
 Was it the visual impact of fishing large mammals to put them in pills? The certainty that my parents, not getting any younger, will be targeted by those scams? The non-existent boundary between content and adverts?
 
@@ -27,4 +27,4 @@ I don't think we can fight profits, we need to redesign our society so that ads 
 
 How?
 
-_Buy my new book for answers!_ 
+_Buy my new book for answers!_
