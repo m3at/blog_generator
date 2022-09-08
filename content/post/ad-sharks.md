@@ -14,7 +14,7 @@ Both the show and the ads clearly targeted the elderly, with bold claims from "s
 
 No-one likes ads but this felts particularly egregious. It triggered me somehow.
 
-Was it the visual impact of fishing large mammals to put them in pills? The certainty that my parents, not getting any younger, will be targeted by those scams? The non-existent boundary between content and adverts?
+Was it the visual impact of fishing large animals just to put them in pills? The certainty that my parents, not getting any younger, will be targeted by those scams? The non-existent boundary between content and adverts?
 
 How do we stop this?
 
@@ -27,6 +27,5 @@ I don't think we can fight profits, we need to redesign our society so that ads 
 How?
 
 <br/>
-
 
 _Buy my new book for answers!_
